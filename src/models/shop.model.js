@@ -8,7 +8,7 @@ const DOCUMENT_NAME = 'Shop'
 const COLLECTION_NAME = 'Shops'
 
 // Declare the Schema of the Mongo model
-var shopSchema = new mongoose.Schema({
+var shopSchema = new Schema({
     name:{
         type:String,
         trim:true,
